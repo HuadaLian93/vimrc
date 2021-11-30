@@ -69,6 +69,10 @@ command W w !sudo tee % > /dev/null
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Set line number on
+set number 
+
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
