@@ -58,6 +58,10 @@ set autoread
 let mapleader = ";"
 let g:mapleader = ";"
 
+" Jump to next page
+nnoremap <Leader>f <C-f>
+nnoremap <Leader>b <C-b> 
+
 " Fast saving
 nmap <leader>w :w!<cr>
 
